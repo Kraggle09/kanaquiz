@@ -183,7 +183,7 @@ class Question extends Component {
       else
         resultString = (
           <div className="previous-result wrong" title="Wrong answer!">
-            <span className="pull-left glyphicon glyphicon-none"></span>{rightAnswer}<span className="pull-right glyphicon glyphicon-remove"></span>
+            <span className="pull-left glyphicon glyphicon-none"></span>{rightAnswer} (Your answer: {this.previousAnswer})<span className="pull-right glyphicon glyphicon-remove"></span>
           </div>
         );
     }
