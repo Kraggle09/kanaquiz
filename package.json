@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/anzzstuff/kanaquiz/issues"
   },
-  "homepage": "https://github.com/anzzstuff/kanaquiz#readme",
+  "homepage": "https://kraggle09.github.io/kanaquiz",
   "browserslist": [
     ">0.25%",
     "not dead"
@@ -32,6 +32,7 @@
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.12.0",
     "postcss": "^7.0.5",
